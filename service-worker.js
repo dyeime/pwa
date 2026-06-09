@@ -1,10 +1,10 @@
 const CACHE_NAME = "meu-app-cache-v1";
 const FILES_TO_CACHE = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./manifest.json",
-  "./icon.png"
+  "/",
+  "index.html",
+  "styles.css",
+  "manifest.json",
+  "icon.png"
 ];
 
 self.addEventListener("install", event => {
